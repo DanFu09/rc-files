@@ -29,9 +29,15 @@ set t_Co=256
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 set wildignore+=*.class			     " Java
+
+" by default, use 4 spaces for tabs
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" for html/cpp files, 2 spaces
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype cpp setlocal ts=2 sw=2 expandtab
 
 :nmap <S-Enter> O<Esc>
 :nmap <CR> o<Esc>

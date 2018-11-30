@@ -35,9 +35,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" for html/cpp files, 2 spaces
+" for html/cpp/javascript files, 2 spaces
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype cpp setlocal ts=2 sw=2 expandtab
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 
 :nmap <S-Enter> O<Esc>
 :nmap <CR> o<Esc>

@@ -17,6 +17,8 @@ Plug 'dracula/vim', {'as': 'dracula'}
 call plug#end()
 
 :set mouse=a
+:set ttymouse=sgr
+:set paste
 :set number
 :colorscheme monokai
 set t_Co=256
@@ -42,4 +44,5 @@ autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 
 :nmap <S-Enter> O<Esc>
 :nmap <CR> o<Esc>
+
 

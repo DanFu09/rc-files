@@ -17,7 +17,10 @@ Plug 'dracula/vim', {'as': 'dracula'}
 call plug#end()
 
 :set mouse=a
-:set ttymouse=sgr
+if has('mouse_sgr')
+    set ttymouse=sgr
+endif
+:set bs=2
 :set paste
 :set number
 :colorscheme monokai

@@ -7,6 +7,8 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 Plug 'mxw/vim-jsx'
 Plug 'rust-lang/rust.vim'
 Plug 'ctrlpvim/ctrlp.vim'

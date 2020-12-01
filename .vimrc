@@ -41,6 +41,8 @@ set wildignore+=*.class			     " Java
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set list
+set listchars=tab:␉·
 
 " for html/cpp/javascript files, 2 spaces
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
